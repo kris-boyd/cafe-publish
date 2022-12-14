@@ -1,6 +1,17 @@
 #: locale=en
 
+## Hotspot
+
+### Tooltip
+HotspotPanoramaOverlayArea_04B668AD_12B1_5C91_41AA_90725D7BFAD9.toolTip = Click on this sign to see instructions
+
 ## Media
+
+### Image
+imlevel_090732C8_12D9_FB6D_4152_35647DED6A24.url = media/popup_083D9C50_12DE_6F7D_41A9_1EA5B1F497C4_en_0_0.png
+imlevel_090722C8_12D9_FB6D_41A4_E0EA628A5997.url = media/popup_083D9C50_12DE_6F7D_41A9_1EA5B1F497C4_en_0_1.png
+
+### Popup Image
 
 ### Title
 panorama_4B816BDC_4455_163D_41D1_025BCB68010A.label = D 1
