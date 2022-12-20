@@ -1,5 +1,15 @@
 #: locale=en
 
+## Action
+
+### URL
+PopupWebFrameBehaviour_110EE283_311E_1A1C_41B7_8309F2B5658C.url = //player.vimeo.com/video/767676765
+PopupWebFrameBehaviour_2FB6E401_3126_3E1C_4181_B520E0A3E4DA.url = //player.vimeo.com/video/767676765
+PopupWebFrameBehaviour_2C88CA11_312E_2A3C_41BC_73890D544EF3.url = //player.vimeo.com/video/767676765
+PopupWebFrameBehaviour_2CEF639A_3126_3A2C_4166_79DAD0F2972E.url = //player.vimeo.com/video/767676765
+PopupWebFrameBehaviour_2F930E99_3125_EA2C_41AE_D374795AE941.url = //player.vimeo.com/video/767676765
+PopupWebFrameBehaviour_2DFF6B20_30EA_6A1C_419E_9C881687E449.url = //player.vimeo.com/video/767676765
+
 ## Hotspot
 
 ### Tooltip
@@ -8,8 +18,8 @@ HotspotPanoramaOverlayArea_04B668AD_12B1_5C91_41AA_90725D7BFAD9.toolTip = Click 
 ## Media
 
 ### Image
-imlevel_090732C8_12D9_FB6D_4152_35647DED6A24.url = media/popup_083D9C50_12DE_6F7D_41A9_1EA5B1F497C4_en_0_0.png
-imlevel_090722C8_12D9_FB6D_41A4_E0EA628A5997.url = media/popup_083D9C50_12DE_6F7D_41A9_1EA5B1F497C4_en_0_1.png
+imlevel_2A508634_30D1_A83B_41C1_99FF19D7F5B7.url = media/popup_2BA53C6D_30D0_9825_41B1_746442F818F5_en_0_0.png
+imlevel_2A507634_30D1_A83B_41B6_72F343F62901.url = media/popup_2BA53C6D_30D0_9825_41B1_746442F818F5_en_0_1.png
 
 ### Popup Image
 
