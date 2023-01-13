@@ -1,9 +1,9 @@
 {
  "name": "The Cafe",
  "start_url": "index.htm",
- "theme_color": "#333333",
+ "theme_color": "#FFFFFF",
  "display": "fullscreen",
- "background_color": "#333333",
+ "background_color": "#FFFFFF",
  "icons": [
   {
    "src": "misc/icon16.png",

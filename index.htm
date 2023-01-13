@@ -6,24 +6,24 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1673538720772"></script>
-    <link rel="shortcut icon" href="favicon.ico?v=1673538720772">
-	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1673538720772">
-	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1673538720772">
-	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1673538720772">
-	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1673538720772">
-	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1673538720772">
-	<link rel="manifest" href="manifest.json?v=1673538720772">
-	<meta name="msapplication-TileColor" content="#333333">
+    <script src="lib/tdvplayer.js?v=1673575139322"></script>
+    <link rel="shortcut icon" href="favicon.ico?v=1673575139322">
+	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1673575139322">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1673575139322">
+	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1673575139322">
+	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1673575139322">
+	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1673575139322">
+	<link rel="manifest" href="manifest.json?v=1673575139322">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
 	<meta name="msapplication-config" content="browserconfig.xml">
-	<link rel="preload" href="locale/en.txt?v=1673538720772" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1673538720772" as="script"/>
+	<link rel="preload" href="locale/en.txt?v=1673575139322" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1673575139322" as="script"/>
 	<meta name="description" content="Virtual Tour"/>
-	<meta name="theme-color" content="#333333"/>
-    <script src="script.js?v=1673538720772"></script>
+	<meta name="theme-color" content="#FFFFFF"/>
+    <script src="script.js?v=1673575139322"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1673538720772"};
+        var devicesUrl = {"general":"script_general.js?v=1673575139322"};
 
         (function()
         {
@@ -66,9 +66,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1673538720772');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1673538720772');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1673538720772');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1673575139322');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1673575139322');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1673575139322');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -332,12 +332,12 @@
         .fill-viewport.landscape-left { left: env(safe-area-inset-left); }
 		.fill-viewport.landscape-right { right: env(safe-area-inset-right); }
         #viewer { z-index:1; }
-        #preloadContainer { z-index:2; opacity:0; background-color:rgba(51,51,51,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
+        #preloadContainer { z-index:2; opacity:0; background-color:rgba(255,255,255,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
     
 </head>
 <body>
-    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 44.233289646133684%; width: 100.00%; height: 24.84%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:6.028833551769332vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:6.03vmin;">Loading The Cafe</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:6.03vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:6.028833551769332vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:6.03vmin;"> Please wait...</SPAN></SPAN></DIV></div></div></div>
+    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 44.233289646133684%; width: 100.00%; height: 24.84%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:6.028833551769332vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#000000;font-size:6.03vmin;font-family:Impact, Charcoal, sans-serif;">Loading The Café</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:6.03vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:6.028833551769332vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#000000;font-size:6.03vmin;font-family:Impact, Charcoal, sans-serif;"> Please wait...</SPAN></SPAN></DIV></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
 </body>
 </html>
