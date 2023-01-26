@@ -6,24 +6,24 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1674677602944"></script>
-    <link rel="shortcut icon" href="favicon.ico?v=1674677602944">
-	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1674677602944">
-	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1674677602944">
-	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1674677602944">
-	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1674677602944">
-	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1674677602944">
-	<link rel="manifest" href="manifest.json?v=1674677602944">
+    <script src="lib/tdvplayer.js?v=1674691738026"></script>
+    <link rel="shortcut icon" href="favicon.ico?v=1674691738026">
+	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1674691738026">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1674691738026">
+	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1674691738026">
+	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1674691738026">
+	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1674691738026">
+	<link rel="manifest" href="manifest.json?v=1674691738026">
 	<meta name="msapplication-TileColor" content="#FFFFFF">
 	<meta name="msapplication-config" content="browserconfig.xml">
-	<link rel="preload" href="locale/en.txt?v=1674677602944" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1674677602944" as="script"/>
+	<link rel="preload" href="locale/en.txt?v=1674691738026" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1674691738026" as="script"/>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="script.js?v=1674677602944"></script>
+    <script src="script.js?v=1674691738026"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1674677602944"};
+        var devicesUrl = {"general":"script_general.js?v=1674691738026"};
 
         (function()
         {
@@ -66,9 +66,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1674677602944');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1674677602944');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1674677602944');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1674691738026');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1674691738026');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1674691738026');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
